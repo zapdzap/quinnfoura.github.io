@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Liter&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Schoolbell&family=TASA+Orbiter:wght@400..800&display=swap');
+
+
+body{
+    text-wrap: no-wrap;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+}
+
+.Featured{
+    width: 100%; height: 45vw;
+    padding-top: 5vw;
+
+    @media (max-width: 900px) {
+        padding-top: 12vw;
+    }
+
+    @media (max-width: 600px) {
+        padding-top: 20vw;
+    }
+}
+
+.FeaturedLabel{
+    width: 100%; background-color: blueviolet; height: 9vw;
+}
+
+.logo{
+    visibility: hidden;
+}
+
+.glow-button3 {
+			z-index: 1000;
+			font-size: 16px;
+			margin-left: 1%;
+            padding: 9px 24px;
+            border-radius: 25px;
+            font-weight: 900;
+            color: #000000;
+			padding: 11px 24px;
+            font-weight: 600;
+            color: rgb(0, 0, 0);
+            background-image: linear-gradient(to right, #ffffff, #ffffff);
+            transition: all 0.3s ease-in-out;
+            border: 2px;
+            cursor: pointer;
+			
+        }
+
+.glow-button2 {
+			z-index: 1000;
+			font-size: 1vw;
+			margin-left: 1%;
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-weight: 900;
+            color: #8698cf;
+			padding: 11px 24px;
+            font-weight: 600;
+            color: white;
+            transition: all 0.3s ease-in-out;
+            border: 2px;
+            cursor: pointer;
+			
+        }
+
+.mainoption{
+    cursor: pointer;
+    font-size: 2vw;
+    margin-bottom: 0.2vw; 
+    transition: ease-in-out 0.1s;
+}
+
+.mainoption:hover{
+    transform: translateX(1vw);
+    text-decoration: underline;
+
+}
+
