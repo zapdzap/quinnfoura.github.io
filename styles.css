@@ -11,6 +11,21 @@ body{
     font-optical-sizing: auto;
 }
 
+#logo{
+    margin-left: 5vw;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    color: white;
+    text-wrap: nowrap;
+
+    @media (max-width: 900px) {
+        font-size: 20px;
+        margin-left: 0vw;
+    }
+
+}
+
 .Featured{
     width: 100%; height: 45vw;
     padding-top: 5vw;
@@ -33,6 +48,7 @@ body{
 }
 
 .glow-button3 {
+            margin-right: 100px;
 			z-index: 1000;
 			font-size: 16px;
 			margin-left: 1%;
@@ -47,6 +63,12 @@ body{
             transition: all 0.3s ease-in-out;
             border: 2px;
             cursor: pointer;
+
+            @media (max-width: 900px) {
+                font-size: 12px;
+                padding: 1px 1px;
+                margin-right: 5vw
+            }
 			
         }
 
