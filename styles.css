@@ -59,7 +59,7 @@ html{
     visibility: hidden;
 }
 
-.glow-button3 {
+.glow-button {
 			z-index: 1000;
 			font-size: 16px;
             padding: 9px 24px;
@@ -75,6 +75,24 @@ html{
             @media (max-width: 900px) {
                 font-size: 12px;
                 padding: 1px 1px;
+            }
+			
+        }
+
+.glow-button3 {
+			z-index: 1000;
+			font-size: 1vw;
+            border-radius: 25px;
+            font-weight: 900;
+            color: #000000;
+            padding: 0.5vw 1vw;
+            font-weight: 600;
+            transition: all 0.3s ease-in-out;
+            border: 2px;
+            cursor: pointer;
+
+            @media (max-width: 900px) {
+                font-size: 2vw;
             }
 			
         }
