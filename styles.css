@@ -9,6 +9,12 @@ body{
     background-color: #141414;
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+html{
+    width: 100%;
 }
 
 #logo{
@@ -21,6 +27,11 @@ body{
 
     @media (max-width: 900px) {
         font-size: 20px;
+        margin-left: 0vw;
+    }
+
+    @media (max-width: 700px) {
+        font-size: 15px;
         margin-left: 0vw;
     }
 
@@ -48,18 +59,14 @@ body{
 }
 
 .glow-button3 {
-            margin-right: 100px;
 			z-index: 1000;
 			font-size: 16px;
-			margin-left: 1%;
             padding: 9px 24px;
             border-radius: 25px;
             font-weight: 900;
             color: #000000;
 			padding: 11px 24px;
             font-weight: 600;
-            color: rgb(0, 0, 0);
-            background-image: linear-gradient(to right, #ffffff, #ffffff);
             transition: all 0.3s ease-in-out;
             border: 2px;
             cursor: pointer;
@@ -67,7 +74,6 @@ body{
             @media (max-width: 900px) {
                 font-size: 12px;
                 padding: 1px 1px;
-                margin-right: 5vw
             }
 			
         }
@@ -102,3 +108,20 @@ body{
 
 }
 
+span{
+    transition: ease-in-out 0.2s;
+}
+
+span:hover{
+
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.growbox{
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+.growbox:hover{
+    transform: scale(1.05);
+}
